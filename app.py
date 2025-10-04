@@ -13,8 +13,9 @@ import json
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, jsonify, request, send_from_directory
 import time
+import os
 
 app = Flask(__name__)
 
@@ -232,7 +233,7 @@ scanner = NetworkScanner()
 @app.route('/')
 def index():
     """Main page"""
-    return render_template('index.html')
+    return send_from_directory('.', 'index.html')
 
 @app.route('/scan')
 def scan():
