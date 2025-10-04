@@ -2,6 +2,8 @@
 
 A modern web-based network scanner built with Python and Flask that helps you discover and monitor devices on your network.
 
+<img width="1195" height="898" alt="radar" src="https://github.com/user-attachments/assets/962edfed-2c60-48ab-bfa6-79d48c99ef66" />
+
 ## Features
 
 - 🌐 **Network Discovery**: Automatically detects local networks or scan custom subnets
@@ -169,5 +171,6 @@ Contributions are welcome! Areas for improvement:
 A network surveillance application designed and developed for tactical network reconnaissance and device discovery operations.
 
 ## Version History
+
 
 - **v1.0**: Initial release with basic network scanning and web UI
